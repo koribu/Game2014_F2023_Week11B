@@ -33,13 +33,17 @@ public class EnemyBehavior : MonoBehaviour
         _isThereGroundToStepOn = Physics2D.Linecast(_groundCheckPoint.position, _frontGroundPoint.position,_groundLayers);
         _isThereAnyObstacle = Physics2D.Linecast(_groundCheckPoint.position,_frontObstaclePoint.position,_groundLayers);
 
-        if(_isGrounded && (!_isThereGroundToStepOn || _isThereAnyObstacle))
+        if(_isGrounded )
         {
-            ChangeDirection();
+            
+            if ((!_isThereGroundToStepOn || _isThereAnyObstacle))
+            {
+                ChangeDirection();
+            }
+            Move();
         }
 
-
-        Move();
+        
     }
 
     void Move()

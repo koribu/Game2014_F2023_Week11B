@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6918851298923620751}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FrontGroundPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 1396372487770064205}
   - component: {fileID: 3305820038586000467}
   - component: {fileID: 8644275457251906212}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PlantEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1076517927
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 86afbf04432b34e1883a20f99f007881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -233,7 +233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5891822369275444569}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FrontObstaclePoint
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -264,7 +264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3963783610336717967}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GroundCheckPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
