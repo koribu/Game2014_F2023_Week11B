@@ -15,8 +15,8 @@ TagManager:
   - Ground
   - Probs
   - Platform
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Probs
     uniqueID: 2954185705
+    locked: 0
+  - name: Platform
+    uniqueID: 4238192419
     locked: 0
   - name: Player
     uniqueID: 3489621241
